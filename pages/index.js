@@ -11,16 +11,16 @@ export default function Home({ repositories }) {
   return (
     <ContainerBlock
       title="Rohan Virmani - Devops Developer"
-      description="This is a test."
+      description=""
     >
       <Hero />
-      <FavouriteProjects />
-      <LatestCode repositories={repositories} />
+      {/*  <FavouriteProjects />
+      <LatestCode repositories={repositories} />*/}
     </ContainerBlock>
   );
 }
 
-export const getServerSideProps = async () => {
+export const getStaticProps  = async () => {
   console.log(process.env.GITHUB_AUTH_TOKEN);
   let token = process.env.GITHUB_AUTH_TOKEN;
 
