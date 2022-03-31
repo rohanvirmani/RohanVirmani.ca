@@ -1,0 +1,6 @@
+<div class="posts">
+    {{ range .Paginator.posts.ByDate.Reverse }}
+      {{ .Render "article-card" }}
+    {{ end }}
+    {{ template "_internal/pagination.html" . }}
+</div>
