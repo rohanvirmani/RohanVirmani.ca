@@ -1,0 +1,3 @@
+[submodule "themes\\Raditian"]
+	path = themes\\Raditian
+	url = https://github.com/radity/raditian-free-hugo-theme.git
