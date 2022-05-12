@@ -5,4 +5,6 @@ menu: "main"
 type: "page"
 layout: singlepage
 ---
-This is a test
+
+##### This is a collection of blog posts and technical projects I am working on
+## under construction

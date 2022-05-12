@@ -1,15 +1,10 @@
 <div class="posts">
     
-    {{ $pages := (where .Site.RegularPages "Type" "in" "posts").ByDate.Reverse }}
-    {{ printf "%#v" (len $pages) }}
-    {{ printf "%#v" (index $pages 0).Content }}
-    {{ $paginator := .Paginate $pages }}
-    {{ with $paginator }}
-    {{ printf "%#v" .Pages }}
-    {{range .Pages}}
-        {{ partial "blog_card.html" . }}    
+   
+   
+</br>
+    {{ range (where .Site.RegularPages "Type" "in" "blogposts").ByDate.Reverse  }}
+        <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
     {{ end }} <!-- correctly shows 4 -->
-    {{ end }} <!-- correctly shows 4 -->
-  
-  
+    
 </div>

@@ -5,4 +5,6 @@ menu: "main"
 type: "page"
 layout: singlepage
 ---
-This is my portfolio, I would to highlight programming projects that showcase my abilties
+<!-- This is my portfolio, I would like to highlight programming projects that showcase my abilties -->  
+
+##### Under construction

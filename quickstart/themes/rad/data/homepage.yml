@@ -13,7 +13,7 @@ showcase:
   button:
     icon: "icon-mail-fill"
     btnText: "Contact"
-    URL: ""
+    URL: "https://www.linkedin.com/in/rohan-virmani-3243069/"
 
   socialLinks:
     - icon: "linkedin"
@@ -23,7 +23,7 @@ showcase:
       URL: "https://github.com/rohanvirmani"
 
     - icon: "twitter"
-      URL: ""
+      URL: "https://twitter.com/rohanster"
 
     - icon: "instagram"
       URL: ""
@@ -33,10 +33,10 @@ about:
   enable: true
   title: "Who am I?"
   content: '<p class="lead">
-    I&#39;m a software development professional that loves solving problems using technology. Currently working in the DevOps field.
+    I&#39;m a software development professional that loves solving problems using technology. Currently focused on the DevOps field.
     </p>
     <p class="lead">
-    My area of focus lies in backend technologies including Terraform, Powershell, Docker. I enjoy building elegant solutions that help reach business goals.
+    My area of focus lies in backend technologies including Terraform, Powershell, Go, Docker. I enjoy building elegant and efficient solutions that help reach business goals.
     </p>'
   button:
     icon: "icon-smile-fill"
